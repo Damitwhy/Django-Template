@@ -60,3 +60,4 @@ Installation instructions.
 - runserver to see the Django opening page with command: python3 manage.py runserver
 - Now you have a fairly fresh Django application waiting for you to make use of by wiring up your urls.py and views.py files.
 - remember always to set debug to false in setting.py file before deploying. Sites like Heroku are great for testing your deployments.
+- There tends to be a warning that no migrations have been made when you first runserver but this doesnt stop the Django page from loading up, I've normally waited to migrate until i've started to fill the models.py file with the ERD model that I require moving forward.
