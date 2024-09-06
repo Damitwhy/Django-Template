@@ -55,10 +55,10 @@ wsgi.py
 Installation instructions.
 - Create new repository with this template.
 - Open your New repository in VSCode desktop with the GitHub desktop app.
-- Create Venv (python) environment if its not already created then activate the Venv folder (python environment) with this command : .\venv\Scripts\activate
-- Then install all dependancies from the requirements.txt with command: pip3 install -r requirements.txt
-- runserver to see the Django opening page with command: python3 manage.py runserver
+- Create Venv (python) environment if its not already created then activate the Venv folder (python environment) with this command :   < .\venv\Scripts\activate >
+- Then install all dependancies from the requirements.txt with command:< pip3 install -r requirements.txt >
+- Runserver to see the Django opening page with command:< python3 manage.py runserver >
 - Now you have a fairly fresh Django application waiting for you to make use of by wiring up your urls.py and views.py files.
-- remember always to set debug to false in setting.py file before deploying. Sites like Heroku are great for testing your deployments.
+- Remember always to set debug to false in setting.py file before deploying. Sites like Heroku are great for testing your deployments.
 - There tends to be a warning that no migrations have been made when you first runserver but this doesnt stop the Django page from loading up, I've normally waited to migrate until i've started to fill the models.py file with the ERD model that I require moving forward.
-- When you're ready to migrate use command: python3 manage.py makemigrations :this lets you know which migrations will take place then command: Python3 manage.py migrate :this writes to the database you've chosen to host your data, Djaongo's default data base is db.sqlite3 which is a file in the root directory but you may be better of with an off site database like PostgreSQL, MySQl or one I've not used like mongodb maybe.
+- When you're ready to migrate use command:< python3 manage.py makemigrations >:this lets you know which migrations will take place then command:< Python3 manage.py migrate >:this writes to the database you've chosen to host your data, Django's default data base is db.sqlite3 which is a file in the root directory but you may be better of with an off site database like PostgreSQL, MySQl or one I've not used like mongodb maybe.
