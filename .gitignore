@@ -11,3 +11,4 @@ db.json
 .env
 debug.log
 wsgi.py
+db.sqlite3
