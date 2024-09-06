@@ -51,3 +51,12 @@ db.json
 .env
 debug.log
 wsgi.py
+## Installation
+Installation instructions.
+- Create new repository with this template.
+- Open your New repository in VSCode desktop with the GitHub desktop app.
+- Create Venv (python) environment if its not already created then activate the Venv folder (python environment) with this command : .\venv\Scripts\activate
+- Then install all dependancies from the requirements.txt with command: pip3 install -r requirements.txt
+- runserver to see the Django opening page with command: python3 manage.py runserver
+- Now you have a fairly fresh Django application waiting for you to make use of by wiring up your urls.py and views.py files.
+- remember always to set debug to false in setting.py file before deploying. Sites like Heroku are great for testing your deployments.
