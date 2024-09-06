@@ -1,0 +1,53 @@
+# Welcome To Damitwhy's Django-Temple
+I've been pretty frustrated when switching between Linux and Windows versions of VS Code then having issues with permissions so I've set up my Venv on the Linux Debian system first and created this template for future setups, just saving alittle time and having all the installed dependencies in place from the start... Totally clean urls.py files, though there are a few place holder core/template/core files.
+Will be adding to this template over time with Django-allauth account template files, static and staticfiles folders.
+## Requirements.txt
+asgiref==3.8.1
+bleach==6.1.0
+blinker==1.8.2
+certifi==2024.8.30
+charset-normalizer==3.3.2
+click==8.1.7
+cloudinary==1.41.0
+dj-database-url==2.2.0
+Django==5.0.7
+django-allauth==64.0.0
+django-appconf==1.0.6
+django-cloudinary-storage==0.3.0
+django-imagekit==5.0.0
+django-summernote==0.8.20.0
+Flask==3.0.3
+gunicorn==22.0.0
+idna==3.8
+itsdangerous==2.2.0
+Jinja2==3.1.4
+MarkupSafe==2.1.5
+packaging==24.1
+pilkit==3.0
+pillow==10.4.0
+psycopg2==2.9.9
+psycopg2-binary==2.9.9
+python-decouple==3.8
+python-dotenv==1.0.1
+requests==2.32.3
+six==1.16.0
+sqlparse==0.5.1
+typing_extensions==4.12.2
+urllib3==2.2.2
+webencodings==0.5.1
+Werkzeug==3.0.3
+whitenoise==6.7.0
+## .gitignore
+core.Microsoft*
+core.mongo*
+core.python*
+env.py
+__pycache__/
+*.py[cod]
+node_modules/
+.github/
+cloudinary_python.txt
+db.json
+.env
+debug.log
+wsgi.py
