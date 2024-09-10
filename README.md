@@ -1,4 +1,4 @@
-# Welcome To Damitwhy's Django-Temple
+# Welcome To Damitwhy's Django-Template
 I've been pretty frustrated when switching between Linux and Windows versions of VS Code then having issues with permissions so I've set up my Venv on the Linux Debian system first and created this template for future setups, just saving alittle time and having all the installed dependencies in place from the start... Totally clean urls.py files, though there are a few place holder core/template/core files.
 Will be adding to this template over time with Django-allauth account template files, static and staticfiles folders.
 ## Requirements.txt
